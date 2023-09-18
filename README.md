@@ -8,7 +8,8 @@ Projeto desenvolvido para treinamento de uma rede neural temporal do tipo LSTM.
 
 ---  
 
-## ©️ Licença  
+## ©️ Licença    
+Distribuído sob a licença MIT. Veja `LICENSE`para informações adicionais.   
 
 ---  
 
