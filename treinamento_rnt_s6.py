@@ -11,12 +11,13 @@ Original file is located at
 > DISCIPLINA: REDES NEURAIS  
 > PROFESSOR: EDSON RUSCHEL (autor do código original S6_RNT.py)  
 > ESTUDANTE: Carla Edila Silveira  
-> OBJETIVOS: treinar uma rede neural temporal do tipo LSTM; alterar valores dos parâmetros ajustáveis para obter melhor desempenho possível do modelo de RNT  
+> OBJETIVO: prever cotação de ações a partir de uma base de dados que fornece valores de ações (em dólar) em determinado período de tempo.  
 > DATA: 18/09/2023
 
 > ## CONCEITO DE REDE NEURAL TEMPORAL
 > <img align='left' src='https://i.postimg.cc/6604P3pZ/RNT-S6.png' height=280>
-> <p align='justify'></br>A <b>Rede Neural Temporal (RTN)</b> é uma arquitetura de rede neural que apresenta a capacidade de processar e analisar dados sequenciais ao longo do tempo. Ao contrário das redes neurais tradicionais, que tratam cada entrada de dados de forma isolada, a RNT possui conexões recorrentes que permitem que informações anteriores sejam armazenadas e usadas para tomar decisões em momentos futuros. Ao lado, representa-se a arquitetura básica de uma RNT.</p>
+> <p align='justify'>A <b>Rede Neural Temporal (RTN)</b> é uma arquitetura (ver exemplo na imagem ao lado) com capacidade de processar e analisar dados sequenciais ao longo do tempo. Ao contrário das redes neurais tradicionais, que tratam cada entrada de dados de forma isolada, a RNT tem conexões recorrentes que permitem que informações anteriores sejam armazenadas e usadas para tomar decisões em momentos futuros.</p>
+> <p align='justify'><b>A LSTM (<i>Long Short Term Memory</i>) tem a capacidade de "lembrar” de valores em intervalos arbitrários.</b> Aplicável para tarefas de classificação, processamento e previsão de séries temporais com períodos de tempo de  duração desconhecida. É utilizada em vários contextos de PLN.</p>
 """
 
 # IMPORTAÇÃO DE BIBLIOTECAS
@@ -202,6 +203,8 @@ print("Coeficiente de Determinação (R²) - Teste: {:.4f}".format(r2_test))
 print('\n' + '=' * 70)
 
 """> ## EXECUÇÕES DO MODELO COM AJUSTES DE PARÂMETROS  
+> <p align="justify">Realizou-se treinamento de uma rede neural temporal do tipo LSTM com a alteração de valores dos parâmetros ajustáveis em diversas baterias para obter o melhor desempenho possível do modelo de RNT.</p>
+> </br>
 > - 1a. execução  
 > Parâmetros: janela_prev = 200; funcao_perda = 'binary_crossentropy'; otimizador = 'RMSprop'; neuronios_LSTM = 4; neuronios_densa = 20; epocas = 10; lote = 200 </br>
 > </br>
