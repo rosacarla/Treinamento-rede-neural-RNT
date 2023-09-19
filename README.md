@@ -1,6 +1,10 @@
 # ⏲️ TREINAMENTO DE REDE NEURAL TEMPORAL - RNT  
 
-Projeto desenvolvido para treinamento de uma rede neural temporal do tipo LSTM.   
+<p align='justify'>Projeto desenvolvido para treinamento de uma rede neural temporal do tipo LSTM, para o qual foram alterados valores de parâmetros ajustáveis a fim de obter melhor desempenho possível do modelo de RNT. Realizaram-se as seguintes combinações: </p>  
+
+<p align='center'>  
+    <img src='https://i.postimg.cc/T2QV5ffv/tabela-parametros-rnt.png' align='middle' width=798>
+</p>
 
 ---  
 ## 🧰 Tecnologias utilizadas  
