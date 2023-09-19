@@ -4,7 +4,19 @@ Projeto desenvolvido para treinamento de uma rede neural temporal do tipo LSTM.
 
 ---  
 ## 🧰 Tecnologias utilizadas  
+```python
+# Importação de bibliotecas
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+from keras.models import Sequential
+from keras.layers import Dense, LSTM
+import matplotlib.pyplot as plt
 
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import r2_score
+```
 
 ---  
 
